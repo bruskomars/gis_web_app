@@ -1,4 +1,5 @@
-# gis_web_app
+# GIS WEB APP using ARCGIS API JS
+
 **Interactive GIS Web App with Query, Filter, and Export Tools built using ArcGIS API for JavaScript.**
 
 

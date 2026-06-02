@@ -1,0 +1,31 @@
+html,
+body,
+#viewDiv {
+  height: 97%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#footer {
+    background-color: rgb(235, 232, 229);
+}
+
+#tableDiv{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 500px;
+}
+
+#searchTableDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* spacing between elements */
+}
+
+#exportTools {
+  margin-left: auto; /* push buttons to the right */
+  display: flex;
+  gap: 10px; /* spacing between buttons */
+}

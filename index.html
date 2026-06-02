@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - ArcGIS API</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- arcgis AMD require -->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.29/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.29/"></script>
+    <!-- jquery -->
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+</head>
+<body>
+    <div id="viewDiv"></div>
+    <div id="tableDiv"></div>
+
+    <div id="searchTableDiv">
+        <label for="fieldSearch">Fields</label>
+        <!-- <input id="fieldSearch" type="text" placeholder="Enter filter field"> -->
+        <select name="" id="fieldSearch">
+            <option value="">Select Field</option>
+        </select>
+        <!-- <label for="valueSearch">Value</label> -->
+        <input id="valueSearch" type="text" placeholder="Enter filter value">
+        <button id="filterTableBtn">Filter Table</button>
+
+        <div class="esri-widget" id="exportTools">
+            <button id="exportCSV">Export CSV</button>
+            <button id="exportGeoJSON">Export GeoJSON</button>
+        </div>
+    </div>
+
+    
+
+    <div class="esri-widget" id="queryDiv">
+        <input id="searchInput" type="text" placeholder="Enter a query value">
+        <button id="queryBtn">Query Records</button>
+    </div>
+
+    <div class="esri-widget" id="layerListDropdown">
+        <label for="layerName">Layer List: </label>
+        <select id="layerName">
+            <option value="">Select a Layer</option>
+        </select>
+    </div>
+
+    <div id="footer" class="col-md-12">
+        <h4 id="mapCoords" class="text-center">Latitude: 14.359301 Longitude: 121.894019</h4>
+        <h4 class="text-center">&copy;2026 <a href="">bruskomars</a></h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

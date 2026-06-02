@@ -21,6 +21,9 @@ Interactive GIS Web App with Query, Filter, and Export Tools built using ArcGIS 
 **Demo of coordinates changing on hover**
 ![Demo of coordinates changing on hover](docs/map_coords_on_hover.gif)
 
+**Demo of query records and create new layer for results and zoom to results**
+![Demo of query records and create new layer for results and zoom to results](docs/query+zoom+result.gif)
+
 ****Tech Stack****
 
 - ArcGIS API for JavaScript

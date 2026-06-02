@@ -1,5 +1,6 @@
 # gis_web_app
-Interactive GIS Web App with Query, Filter, and Export Tools built using ArcGIS API for JavaScript.
+**Interactive GIS Web App with Query, Filter, and Export Tools built using ArcGIS API for JavaScript.**
+
 
 ****Features****
 
@@ -9,6 +10,7 @@ Interactive GIS Web App with Query, Filter, and Export Tools built using ArcGIS 
 - Export results to CSV/GeoJSON
 - Layer list + legend integration
 - Map coordinates on hover
+
 
 ****Demo****
 
@@ -24,11 +26,16 @@ Interactive GIS Web App with Query, Filter, and Export Tools built using ArcGIS 
 **Demo of query records and create new layer for results and zoom to results**
 ![Demo of query records and create new layer for results and zoom to results](docs/query+zoom+result.gif)
 
+**Demo of toggling of layers**
+![Demo of toggling of layers](docs/layers_toggle.gif)
+
+
 ****Tech Stack****
 
 - ArcGIS API for JavaScript
 - HTML/CSS/JS
 - Blob API for client‑side export
+
 
 ****How to Run****
 
